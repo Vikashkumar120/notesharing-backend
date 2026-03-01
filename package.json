@@ -1,0 +1,33 @@
+{
+  "name": "noteshare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "node scripts/build.js",
+    "package-backend": "node scripts/package-backend.js",
+    "electron-start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.11",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.17.2"
+  },
+  "devDependencies": {
+    "electron": "^39.2.3"
+  }
+}
